@@ -1,0 +1,6 @@
+
+Receipt:
+Item Name:..........Uniform Socks
+Item Cost:..........$5.00
+Amount Recieved:....7.00
+Change Returned:....$2.00
