@@ -60,7 +60,7 @@ int main()
             cout << "House Name:";
             cin >> house;
             do {
-                cout << "Amout Due: $15" << endl << "Amout Paid: $";
+                cout << "Amout Due: $" << items[id - 1].price << endl << "Amout Paid: $";
                 cin >> amoutPaid;
                 change = amoutPaid - items[id - 1].price;
                 if (change < 0)
@@ -71,7 +71,7 @@ int main()
             break;
         case 2:
             do {
-                cout << "Amout Due: $5" << endl << "Amout Paid: $";
+                cout << "Amout Due: $" << items[id-1].price<< endl << "Amout Paid: $";
                 cin >> amoutPaid;
                 change = amoutPaid - items[id - 1].price;
                 if (change < 0)
@@ -90,7 +90,7 @@ int main()
             do {
                 cout << "Amout Due: $"<<shoePrice << endl << "Amout Paid: $";
                 cin >> amoutPaid;
-                change = amoutPaid - items[id - 1].price;
+                change = amoutPaid - shoePrice;
                 if (change < 0)
                     cout << "Not enough paid! Please Insert at least $" << items[id - 1].price+shoePrice << "." << endl;
             } while (change < 0);
@@ -98,7 +98,7 @@ int main()
             break;
         case 4:
             do {
-                cout << "Amout Due: $10" << endl << "Amout Paid: $";
+                cout << "Amout Due: $" << items[id - 1].price << endl << "Amout Paid: $";
                 cin >> amoutPaid;
                 change = amoutPaid - items[id - 1].price;
                 if (change < 0)
