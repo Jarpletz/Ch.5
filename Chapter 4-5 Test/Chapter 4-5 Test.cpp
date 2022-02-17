@@ -31,6 +31,7 @@ int main()
     float amoutPaid;
     float change;
 
+
     item items[] = { item("House Tie",15,""),item("Socks",5,""),item("Shoes",30," + $5/size for sizes over 9"),item("Belt",10,"")};
 
     cout << left << fixed << setprecision(2) << showpoint;
